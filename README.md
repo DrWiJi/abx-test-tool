@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. Prepare your audio files:
-   - Place your audio files in the `audio` directory
+   - Place your audio files in the `samples` directory
    - Name your files with `_A.wav` and `_B.wav` suffixes (e.g., `test1_A.wav`, `test1_B.wav`)
 
 2. Run the application:
@@ -55,8 +55,8 @@ abx-test-tool/
 │   ├── audio_player.py
 │   ├── abx_test_app.py
 │   └── main.py
-├── audio/
-│   └── (your audio files)
+├── samples/
+│   └── (your audio files in format *_A.wav and *_B.wav, for example, 1_A.wav and 1_B.wav)
 ├── requirements.txt
 ├── LICENSE
 └── README.md
