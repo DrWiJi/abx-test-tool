@@ -32,9 +32,7 @@ ENV/
 *.swo
 
 # Audio files
-audio/*.wav
-audio/*.mp3
-audio/*.flac
+*.wav
 
 # Logs
 *.log
