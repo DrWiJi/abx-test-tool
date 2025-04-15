@@ -80,7 +80,8 @@ class AudioPlayer:
                 callback=self.callback,
                 finished_callback=self.play_finished,
                 blocksize=1024,
-                latency='low'
+                latency='low',
+                extra_settings=sd.WasapiSettings(exclusive=True)  # Correct WASAPI exclusive mode
             )
             self.stream.start()
             self.is_playing = True
